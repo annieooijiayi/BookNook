@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!-- Google Font: Source Sans Pro -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="%PUBLIC_URL%/plugins/fontawesome-free/css/all.min.css">
+  <!-- IonIcons -->
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="%PUBLIC_URL%/dist/css/adminlte.min.css">
+    
+    <title>React App</title>
+  </head>
+  <body class="hold-transition sidebar-mini"> 
+    <div id="root"></div>
+
+    <!-- jQuery -->
+  <script src="%PUBLIC_URL%/plugins/jquery/jquery.min.js"></script>
+  <!-- Bootstrap -->
+  <script src="%PUBLIC_URL%/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- AdminLTE -->
+  <script src="%PUBLIC_URL%/dist/js/adminlte.js"></script>
+  <!-- WebReader by NaturalReader -->
+  <script src="https://webreader.naturalreaders.com/nr-webreader.js" defer></script>
+  <script>
+      window.addEventListener("DOMContentLoaded", function() {
+          if (typeof NRWebReader != 'undefined') {
+              window['NRWebReader'] = new NRWebReader({
+              widget_id: "trkfb93azo",  
+              icon: {
+                  text_box: false, 
+              },
+              bar : {
+              },
+              custom_text_source: "#book" 
+              });
+          }
+      }); 
+  </script> 
+
+
+
+  </body>
+</html>

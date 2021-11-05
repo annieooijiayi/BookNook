@@ -1,0 +1,361 @@
+
+.carousel-caption{
+  top: 40%;
+  bottom: auto;
+}
+
+.carousel-caption h1{
+  font-family: 'Berkshire Swash', cursive;
+  text-shadow: 2px 2px 7px black;
+  font-size: 60px;
+}
+
+.carousel-caption h6{
+  font-family: 'Open Sans', sans-serif;
+  text-shadow: 2px 2px 7px black;
+  font-size: 30px;
+}
+
+.navbar-light{
+  background-color: #0086c1;
+}
+
+.navbar-brand{
+  font-family: 'Berkshire Swash', cursive;
+}
+
+
+.nav-link{
+  font-family: 'Open Sans', sans-serif;
+}
+
+p{
+  font-size: 14px;
+  color: #262626;
+}
+
+.section{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.main-heading{
+  color: rgb(204, 18, 18);
+  font-size: 26px;
+  font-family: 'Berkshire Swash', cursive;
+}
+
+.underline{
+  height: 04px;
+  width: 4rem;
+  background-color: #f76c2f;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.bg-c-light{
+  background-color: #f2f2f2;
+}
+
+
+.links{
+  padding-left: 0%;
+  padding-right: 3%;
+  margin-bottom: 0;
+}
+
+.links li{
+  display: inline;
+  padding-left: 1em;
+}
+
+.icons{
+  padding-left: 0%;
+  padding-right: 1%;
+}
+
+.icons li{
+  display: inline;
+  padding-left: 1em;
+}
+
+
+.footer {
+  background-color: #0086c1;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.footer a{
+  color: #fff;
+  text-decoration: none !important;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+}
+
+.footer a:hover{
+  color: #dedede;
+}
+
+.about-images{
+	position: relative;
+}
+
+.about-img{
+	position: absolute;
+	width: 150px;
+	transition: all 2s ease;
+	opacity: 0.9;
+}
+
+.img-1{
+	left: 20%;
+	top: 0%;
+}
+
+.img-2{
+	left: 40%;
+	top: 30%;
+	z-index: 10;
+}
+
+.img-3{
+	left: 60%;
+	top: 60%;
+	z-index: 20;
+}
+
+.img-4{
+	left: 60%;
+	top: 0%;
+}
+
+.img-5{
+	left: 20%;
+	top: 60%;
+}
+
+.about-img:hover{
+	outline: 10px solid #000000;
+	outline-offset: 32px;
+	transform: scale(1.3) rotate(20deg);
+	z-index: 30;
+	opacity: 1;
+}
+
+.about-images:hover,
+.about-img:not(:hover){
+	opacity: 0.7;
+}
+
+
+.card{
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-body{
+  background-color: #d1ebfb;
+}
+
+.bg-video{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  top: 54%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.login{
+  width: 40%;
+  background: rgba(255, 255, 255, .8);
+  padding: 30px;
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  transform: translateX(-50%, -50%);
+  border-radius: 40px;
+}
+
+.forgot-link{
+  font-size: 13px;
+  text-align: right;
+}
+
+.quick-link a{
+  font-size: 13px;
+}
+
+.signup-container{
+  background: url("../src/components/images/about4.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 70px;
+}
+
+.signup{
+  width: 45%;
+  background: rgba(255, 255, 255, .8);
+  padding: 30px;
+  transform: translateX(-50%, -50%);
+  border-radius: 40px;
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  
+}
+
+.forgot-container{
+  background: url("../src/components/images/5.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 70px;
+}
+
+.forgot-password{
+  width: 45%;
+  background: rgba(255, 255, 255, .8);
+  padding: 30px;
+  transform: translateX(-50%, -50%);
+  border-radius: 40px;
+  margin: auto;
+  margin-bottom: 60px;
+  margin-top: 60px;
+}
+
+.profile-card{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+}
+
+.profile-card-header{
+  background-color: #fff;
+  border-radius: 25px;
+}
+
+.user-info{
+  text-align: left;
+  flex: 83%;
+}
+
+.avatar{
+  flex: 17%;
+}
+
+.page-content{
+  font-family: 'Berkshire Swash', cursive;
+  font-size: 25px;
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-top: 30%;
+}
+
+.page-number{
+  position: fixed;
+  bottom: 0;
+}
+.page{
+  background: #FFFF99;
+}
+
+.page-title{
+  font-family: 'Berkshire Swash', cursive;
+  text-shadow: 2px 2px 7px black;
+  font-size: large;
+  text-align: center;
+  padding-left: 150px;
+  padding-right: 150px;
+  margin-top: 50%;
+}
+
+.page-author{
+  font-family: 'Berkshire Swash', cursive;
+  text-shadow: 2px 2px 7px black;
+  text-align: center;
+  padding-top: 0px;
+}
+
+.page1{
+  background-image: url('../src/components/images/home-left.jpg');
+  background-repeat: no-repeat;
+}
+
+.page2{
+  background-image: url('../src/components/images/home-right.jpg');
+  background-repeat: no-repeat;
+}
+
+.page3{
+  background-image: url('../src/components/images/farm-left.png');
+  background-repeat: no-repeat;
+}
+
+.page4{
+  background-image: url('../src/components/images/farm-right.png');
+  background-repeat: no-repeat;
+}
+
+.page5{
+  background-image: url('../src/components/images/farm-left.png');
+  background-repeat: no-repeat;
+}
+
+.page6{
+  background-image: url('../src/components/images/farm-right.png');
+  background-repeat: no-repeat;
+}
+
+.rectangle{
+  height: auto;
+  width:330px;
+  background-color: #fff;
+  border-radius: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.sprite{
+  padding-top: 130px;
+}
+
+.book-container{
+  background: #fff;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-style: double;
+  border-radius: 25px;
+}
+
+
+.slides .slick-prev,
+.slides .slick-next{
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+}
+
+.react-pdf__Page__canvas {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-pills a:hover{
+  background-color: #eee;;
+}
+
+.search-nav form{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.search-nav #inputState{
+  width: 170px;
+}
